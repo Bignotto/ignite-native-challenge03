@@ -60,7 +60,7 @@ export function SignIn() {
             interessantes sobre{"\n"}o mundo da Twitch
           </Description>
 
-          <SignInButton>
+          <SignInButton onPress={signIn}>
             <SignInButtonIcon>
               <Fontisto name="twitch" color={theme.colors.white} size={16} />
             </SignInButtonIcon>
